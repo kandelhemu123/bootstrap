@@ -1,0 +1,48 @@
+* {
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.text-color {
+    color: white !important;
+}
+
+.custom-image {
+    height: 450px;
+    width: 100%;
+}
+
+.carousel-item,
+.carousel-inner {
+    height: 450px;
+}
+
+.image-size {
+    height: 200px;
+    width: 50%;
+    transition: 3s;
+}
+
+.image-size:hover {
+    transform: scale(1.5);
+}
+
+.card-image-container {
+    overflow: hidden;
+}
+
+.custom-bg {
+    background-color: silver;
+}
+
+.body {
+    background-image: url('image2.jfif');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+.blogger-image {
+    border-radius: 50%;
+    border: 50%;
+}
